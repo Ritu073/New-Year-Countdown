@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year Countdown</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="countdown-container">
+        <div class="flip-clock">
+            <div class="unit">
+                <div class="flip" id="days"></div>
+                <div class="label">Days</div>
+            </div>
+            <div class="unit">
+                <div class="flip" id="hours"></div>
+                <div class="label">Hours</div>
+            </div>
+            <div class="unit">
+                <div class="flip" id="minutes"></div>
+                <div class="label">Minutes</div>
+            </div>
+            <div class="unit">
+                <div class="flip" id="seconds"></div>
+                <div class="label">Seconds</div>
+            </div>
+        </div>
+        <div id="greeting">Happy New Year!</div>
+    </div>
+
+    <div id="fireworks-container"></div>
+    <audio id="newYearSound" src="newyear.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
